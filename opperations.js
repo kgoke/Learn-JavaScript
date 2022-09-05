@@ -1,16 +1,16 @@
-// addition
-var sum = 10 + 10;
+// how to do simple mathmatic operations
 
-// subtract
-var difference = 10 - 5;
+// additon
+var sum = 2 + 2;
 
-// multiply
-var product = 10 * 10;
+// subtraction
+var difference = 5 - 2;
+
+// multiplication
+var product = 5 * 2;
 
 // division
-var quotient = 10 / 5;
+var quotient = 5 / 2;
 
-console.log(sum);
-console.log(difference);
-console.log(product);
-console.log(quotient);
+// modulo
+var remainder = 5 % 2;
