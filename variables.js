@@ -1,21 +1,37 @@
-// types of variables
-// undefined, null, boolean, string, symbol, number, and object
+/*
+Different types of variables in javascript
 
-// declaring a variable
-var x;  // can be used like normal variable anywhere within the program
+boolean: true and false
+numbers: 1,2,3.22,...
+strings: "a", "b", "hello",...
+null: nothing
+undefined: no type for variable;
+object: defineProperty(x,y)
+symbol: symbol() --> not a function
+*/
 
-let y;  // can only be used inside the scope of something
+// declaring variables
+var x;  // act like normal variable can be used and modified normally
 
-const z = 3;    // cannot be changed (also must be defined from start)
+let y;  // can only be used and modified within a scope
 
-// defineing a variable
+const z = 3.14; // cannot be modified once declared/defined
 
-var a = 5;
-var b = 10;
-var c = "i am a";
+// defining variables
 
-a = a + 1;  // 6
-b = b + 5;  // 15
-c = c + " human";   // 'i am a human'
+// first way
+var a;
+a = 2;
 
-// variables in javascript are case sensitive
+let b;
+b = 2;
+
+// second way 
+var c = 2;
+
+let d = 2;
+
+/* NOTES:
+    variables in javascript are case sensitive (use camelCase)
+    const varibles must be initialized
+*/
