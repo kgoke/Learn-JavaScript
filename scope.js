@@ -1,3 +1,6 @@
+// example of scope within functions
+// the output should be something like this:
+// 
 const a = 1; const b = 2; const c = 3;  
        
 (function firstFunction () {  
